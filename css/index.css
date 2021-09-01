@@ -1,0 +1,16 @@
+*{   box-sizing: border-box;
+    font-family: Hina Mincho, Helvetica, sans-serif;
+    text-align: justify;
+}
+.nav-item:hover{ background-color:ghostwhite; color: white;}
+
+.list-group-item  img{ float: right; margin-left: 10px; border-radius: 10%;}
+/* .list-group-item { border: 2px solid red;} */
+.list-group a:hover{ color: red;}
+.panel-group li a:hover{color:yellow; }
+.container{ margin-top: 40px;}
+#lienhe{ background-color: blue; color: white;}
+.list-group{float: left; padding: 0px;box-shadow: -3px 3px 3px yellow;}
+.sidebar{float: right;border: 1px solid black; height: 1630px; padding: 5px; box-shadow: -3px 3px 3px yellow;}
+.sidebar img{ padding: 0px;}
+.panel-group{ clear: both;}

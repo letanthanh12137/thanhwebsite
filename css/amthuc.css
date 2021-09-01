@@ -1,0 +1,16 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    text-align: justify; font-family: Roboto Condensed;
+}
+
+body{margin: 0 20px;}
+ol li{ color:red; font-weight: 600;}
+.list, .list p, .list img{ width: 700px; margin: 0 10px;}
+.list img{ width: 700px;}
+
+ @media (max-width:768px ) { 
+    .list , .list img, .list p{ width: 90%; } 
+
+} 

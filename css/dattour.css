@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    text-align: justify;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+  body{margin: 0 20px;}
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    border-bottom: 1px solid springgreen;
+  }
+  /* .flex-item-left , .flex-item-middle , .flex-item-right { } */
+  .flex-item-left {
+    padding: 10px;
+    flex: 43.33%;
+  }
+  .flex-item-middle {
+    
+    padding: 10px;
+    flex: 43.33%;
+  }
+  .flex-item-middle span{color:red; font-weight: 600;}
+  .flex-item-middle p{ margin-left: 20px;}
+  .flex-item-middle a {color: #1e10e6; text-decoration: none;}
+  .flex-item-middle a:hover {color: #10cde6; text-decoration: none;}
+  .flex-item-right {
+    padding: 10px;
+    flex: 20.33%;
+  }
+  .flex-item-left img{ width: 100%; border-radius: 10%;}
+
+  .button {
+    background-color:orange;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button:hover{background-color: red;}
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+ 
+ 
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
